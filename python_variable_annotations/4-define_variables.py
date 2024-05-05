@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Variable Annotations"""
+'''Variable Annotations'''
 
 
 a: int = 1
