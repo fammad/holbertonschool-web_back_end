@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Simple helper function"""
+"""Simple Helper function"""
+
 
 from typing import Tuple
 
 
-def index_range(page: int, page_size: int) -> Tuple[int, int]
-    """a tuple of size two corresponding to the range of indexes"""
+def index_range(page: int, page_size: int) -> Tuple[int, int]:
+    """index_range"""
     start = (page - 1) * page_size
     end = start + page_size
     return (start, end)
