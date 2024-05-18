@@ -20,4 +20,7 @@ export default class Currency {
     if (typeof newName !== 'string') throw TypeError("Code must be string");
     this._code = newName;
   }
+  displayFullCurrency() {
+    return '${this._name} (${this._code})'
+  }
 }
