@@ -1,6 +1,6 @@
 // A class named HolbertonCourse
 export default class HolbertonCourse {
-    constructor(name, length, students) {
+  constructor(name, length, students) {
     if (typeof name !== 'string') throw TypeError('Name must be a string');
     this._name = name;
 
@@ -10,7 +10,7 @@ export default class HolbertonCourse {
     if (!Array.isArray(students)) throw TypeError('Students must be an array');
     this._students = students;
   }
-  
+
   get name() {
     return this._name;
   }
